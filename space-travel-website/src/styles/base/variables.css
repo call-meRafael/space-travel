@@ -14,4 +14,10 @@
     --fs-300: 1rem;
     --fs-200: 0.875rem;
 
+    /* -- Font-families -- */
+    --ff-serif: 'Bellefair', serif;
+    --ff-sans-cond: 'Balow Condensed', sans-serif;
+    --ff-sans-normal: 'Balow', sans-serif;
+
+
 }

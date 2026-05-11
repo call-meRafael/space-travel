@@ -42,6 +42,10 @@ html {
 
 /* 5. Core body typography */
 body {
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-400);
+  color: hsl(var(--clr-white));
+  background-color: hsl(var(--clr-dark));
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100svh; /* Small viewport height for full coverage */
@@ -56,9 +60,11 @@ button, input, label, select, textarea {
 /* 7. Balanced text wrapping */
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
+  font-weight: 400;
 }
 p {
   text-wrap: pretty;
+  font-weight: 400;
 }
 
 /* 8. Media elements: Responsive and block-level */
