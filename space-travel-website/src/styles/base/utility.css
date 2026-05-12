@@ -9,6 +9,10 @@
     gap: var(--gap, 1rem);
 }
 
+.center {
+    align-items: center;
+}
+
 /* --- *:not(:first-child) age de forma parecida com o seletor * + *, no entanto, ele insere especificidade de seletor. * + * é mais limpo e previne conflitos de especificidade. utilizando o :where podemos limpar a especificadae antes imposta ao seletor :not() */
 .flow > *:where(:not(:first-child)) {
     margin-top: var(--flow-space, 1rem);
@@ -18,6 +22,20 @@
     padding-inline: 2em;
     max-width: 80rem;
     margin-inline: auto;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: var(--container-gap, 2rem);
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(2rem, 1fr);
+
+}
+
+.grid-container > *:first-child {
+    grid-column: 2;
+}
+.grid-container > *:last-child {
+    grid-column: 3;
 }
 
 .sr-only {

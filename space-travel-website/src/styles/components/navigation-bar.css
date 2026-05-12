@@ -1,6 +1,6 @@
 .primary-navigation {
     --gap: 8rem;
-    --underline-gap: 2rem;
+    --underline-gap: 2rem 0;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -19,7 +19,8 @@
     cursor: pointer;
     padding: var(--underline-gap, 1rem 0 );
     border: 0;
-    border-bottom: .2rem solid hsl(var(--clr-white) );
+    border-bottom: .2rem solid hsl(var(--clr-white) / 0);
+    
 
     &:hover,
     &:focus {

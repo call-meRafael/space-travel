@@ -1,6 +1,6 @@
 .large-button {
     position: relative;
-    display: grid;
+    display: inline-grid;
     padding: 0 2em;
     border-radius: 50%;
     aspect-ratio: 1;
