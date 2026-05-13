@@ -2,6 +2,7 @@
     position: relative;
     display: inline-grid;
     padding: 0 2em;
+    font-size: 2rem;
     border-radius: 50%;
     aspect-ratio: 1;
     place-content: center;

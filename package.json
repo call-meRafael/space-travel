@@ -1,0 +1,7 @@
+{
+  "name": "space-travel",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix space-travel-website"
+  }
+}

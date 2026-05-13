@@ -1,8 +1,6 @@
-import { data } from '../data.json';
+// import data from './data.json' with { type: "json" };
+import { destinations, crew, technology } from './data.json' with { type: "json" };
+// const destinations = data.destinations;
+console.log(destinations);
 
-const destinations = data.destinations;
-const crew = data.crew;
-const technology = data.technology;
 
-
-console.log('Hello, Space!');
