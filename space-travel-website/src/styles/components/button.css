@@ -1,11 +1,11 @@
 .large-button {
     position: relative;
     display: inline-grid;
-    padding: 0 2em;
     font-size: 2rem;
+    padding: 0 2em;
     border-radius: 50%;
     aspect-ratio: 1;
-    place-content: center;
+    place-items: center;
     text-decoration: none;
     z-index: 1;
 

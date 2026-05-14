@@ -33,7 +33,8 @@
     display: grid;
     place-items: center;
     text-align: center;
-
+    padding-inline: 1rem;
+    
     @media (min-width: 45rem) {
         text-align: left;
         column-gap: var(--container-gap, 2rem);

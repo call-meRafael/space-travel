@@ -40,7 +40,7 @@ html {
   }
 }
 
-/* 5. Core body typography */
+/* 5. Core body */
 body {
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-400);
@@ -48,7 +48,7 @@ body {
   background-color: hsl(var(--clr-dark));
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  min-height: 100svh; /* Small viewport height for full coverage */
+  min-height: 100vh; /* Small viewport height for full coverage */
 
   display: grid;
   grid-template-rows: min-content 1fr;

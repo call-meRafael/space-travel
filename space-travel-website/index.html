@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
     
     <title>Space Travel</title>
+    <link rel="shortcut icon" href="./src/assets/shuttle.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body class="home">
@@ -20,8 +21,13 @@
         <path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48ZM24 48C24 48 24 24 48 24C24 24 24 0 24 0C24 0 24 24 0 24C23.5776 24.1714 24 48 24 48Z" fill="white"/>
         </svg>
       </div>
+
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span> 
+      </button>
+
       <nav>
-        <ul class="primary-navigation underline-indicators flex">
+        <ul id="primary-navigation" class="primary-navigation underline-indicators flex">
             <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span>00</span>Home</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span>01</span>Destinos</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span>02</span>Tripulação</a>
