@@ -24,7 +24,13 @@
         padding: min(20rem, 15vh) 2rem;
         margin: 2rem;
         flex-direction: column;
+        min-height: fit-content;
+        border-radius: .7em;
         background: rgba(0, 0, 0, 0.863);
+    }
+
+    .primary-navigation.underline-indicators > .active {
+        border: 0;
     }
 }
 
