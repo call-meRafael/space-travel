@@ -1,8 +1,9 @@
 .large-button {
     position: relative;
     display: inline-grid;
+    
     font-size: 2rem;
-    padding: 0 2em;
+    padding: 0 1em;
     border-radius: 50%;
     aspect-ratio: 1;
     place-items: center;
@@ -11,7 +12,9 @@
 
     
 
-    
+    @media (min-width: 45rem) {
+        padding: 0 2em;
+    }
 
     &::after {
         content: '';
@@ -38,6 +41,24 @@
 
 
 .mobile-nav-toggle {
+    display: none;
     cursor: pointer;
+    
 
+    @media (max-width: 35rem) {
+        
+        display: block;
+        position: absolute;
+        z-index: 2000;
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 2rem;
+        right: 1rem;
+        background: transparent;
+        background-image: url(./assets/hamburger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        aspect-ratio: 1;
+        border: 0;
+    }
 }

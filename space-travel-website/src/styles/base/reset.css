@@ -52,6 +52,8 @@ body {
 
   display: grid;
   grid-template-rows: min-content 1fr;
+
+  overflow-x: hidden;
 }
 
 /* 6. Shorter line heights for headings and forms */
